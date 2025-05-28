@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "Daily Finance">
+    <test name = "User Registration">
+        <classes>
+            <class name="Runner.UserRegistrationRunner"> </class>
+        </classes>
+    </test>
+
+    <test name = "Reset Password">
+        <classes>
+            <class name="Runner.ResetPasswordRunner"> </class>
+        </classes>
+    </test>
+
+    <test name = "Retreive Password">
+        <classes>
+            <class name="Runner.RetrievePasswordRunner"> </class>
+        </classes>
+    </test>
+
+    <test name = "Login User with new password">
+        <classes>
+            <class name="Runner.LoginUserRunner"> </class>
+        </classes>
+    </test>
+
+    <test name = "Add items in list">
+        <classes>
+            <class name="Runner.AddItemRunner"> </class>
+        </classes>
+    </test>
+
+    <test name = "Update user gmail">
+        <classes>
+            <class name="Runner.UpdateGmailRunner"> </class>
+        </classes>
+    </test>
+
+    <test name = "Login with new gmail">
+        <classes>
+            <class name="Runner.UpdateGmailLoginRunner"> </class>
+        </classes>
+    </test>
+</suite>
